@@ -1,0 +1,33 @@
+body {
+  background-color: rgb(245, 245, 245);
+}
+
+h1 {
+  text-transform: capitalize;
+}
+
+.card-data {
+  margin: 10px;
+}
+
+/* TITLE SECTION */
+#title {
+  padding: 100px;
+  text-align: center;
+}
+
+/* GLOBAL SECTION */
+#global {
+  padding: 50px 100px;
+  text-align: center;
+}
+
+/* SEARCH COUNTRY SECTION */
+#search-country {
+  padding: 50px 100px;
+  text-align: center;
+}
+
+.show-data img{
+  margin: 15px;
+} 
