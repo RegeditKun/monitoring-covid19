@@ -1,12 +1,23 @@
 import React from "react";
+import { Container, Row, Col } from "react-bootstrap";
+import StayHomeImage from "../assets/Illustration_15.png";
 
 const Title = () => {
   return (
     <section id="title">
-      <div>
-        <h1>Novel Coronavirus (COVID-19)</h1>
-        <p>Stay Safe, Stay Healty, Stay Home</p>
-      </div>
+      <Container>
+        <Row>
+          <Col className="title-text" md={12} lg={4}>
+            <h1>CORONA</h1>
+            <p>
+              Stay <span></span>.
+            </p>
+          </Col>
+          <Col className="title-image" md={12} lg={8}>
+            <img alt="stay-home" src={StayHomeImage}></img>
+          </Col>
+        </Row>
+      </Container>
     </section>
   );
 };
