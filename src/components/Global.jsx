@@ -6,7 +6,7 @@ const Global = () => {
   const [data, setData] = useState({});
 
   useEffect(() => {
-    Axios.get("https://corona.lmao.ninja/all")
+    Axios.get("https://corona.lmao.ninja/v2/all")
       .then((res) => {
         setData(res.data);
       })
