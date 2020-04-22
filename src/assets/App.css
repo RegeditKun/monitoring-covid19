@@ -1,0 +1,113 @@
+body {
+  background-color: #584f6b;
+  color: #eeeef0;
+}
+
+h1 {
+  text-transform: capitalize;
+}
+
+h1 h2 h3 {
+  font-family: "Raleway", sans-serif;
+}
+
+p {
+  font-family: "Roboto Condensed", sans-serif;
+}
+
+
+/* TITLE SECTION */
+#title {
+  margin-top: 70px;
+  padding: 100px;
+}
+
+.title-text h1 {
+  padding-top: 10%;
+  font-size: 4rem;
+}
+
+.title-text p {
+  padding-top: 5%;
+  font-size: 2.5em;
+  padding-bottom: 10%;
+}
+
+#title span::after{
+  content: "";
+  animation-name: changeWord;
+  animation-duration: 8s;
+  animation-iteration-count: infinite;
+}
+
+@keyframes changeWord {
+  0% {
+    content: "Healthy";
+  }
+  25%{
+    content: "Safe";
+  }
+  50% {
+    content: "Home";
+  }
+  75% {
+    content: "Cautious";
+  }
+  100% {
+    content: "Healthy";
+  }
+}
+
+.title-image {
+  text-align: right;
+}
+
+.title-image img{
+  height: 100%;
+  width: 100%;
+}
+
+
+/* GLOBAL SECTION */
+#global {
+  padding: 50px 100px;
+  text-align: center;
+}
+
+/* CARD DATA SECTION */
+.card-data {
+  margin: 10px;
+}
+
+.cases {
+  background-color: #5280bb;
+}
+
+.recovered {
+  background-color: #72b4a5;
+}
+
+.deaths {
+  background-color: #e75c5f;
+}
+
+/* SEARCH COUNTRY SECTION */
+#search-country {
+  padding: 50px 100px;
+  text-align: center;
+}
+
+.show-data img {
+  margin: 15px;
+}
+
+
+/* SHOW DATA */
+.show-data {
+  padding-top: 30px;
+}
+
+/* CHART DATA SECTION */
+#chart-data{
+  padding-top: 30px;
+}
