@@ -13,6 +13,8 @@ $ npm start
 ```
 ## Built With
 * [Create React App](https://github.com/facebook/create-react-app)
+* [Bootstrap 4](https://getbootstrap.com/)
+* [React-Bootstrap](https://react-bootstrap.github.io/)
 * [ChartJS](https://www.chartjs.org/)
 
 ## License
