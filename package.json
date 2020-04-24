@@ -2,7 +2,7 @@
   "name": "monitoring-covid19",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://RegeditKun.github.io/monitoring-covid19/",
+  "homepage": "https://monitoring-covid19.herokuapp.com/",
   "dependencies": {
     "@testing-library/jest-dom": "^4.2.4",
     "@testing-library/react": "^9.5.0",
